@@ -26,6 +26,7 @@
                         </div>
                         <div>
                             <h2>Projets réalisés</h2>
+                            <h2>ajout texte</h2>
                         </div>
                         <div>
                             <img src="https://placehold.co/200x200" alt="projet 1" srcset="">
@@ -99,18 +100,20 @@
                 
                 <form action="contact" method="post">
                     <h2>Contact</h2>
-                    <p>
-                        <label>Nom et prénom test</label><br><br>
-                        <input type="text" name="nom_prenom">
-                    </p>
-                    <p>
-                        <label>Email</label><br><br>
-                        <input type="email" name="email">
-                    </p>
-                    <p>
-                        <label>Message</label><br><br>
-                        <textarea name="Message" id="Message" cols="60" rows="10">The European languages...</textarea>
-                    </p>
+                    <ul>
+                        <li>
+                            <label for="Name">Nom et prénom test</label>
+                            <input type="text" id="Name" name="user_name">
+                        </li>
+                        <li>
+                            <label for="Email">Email</label>
+                            <input type="email" name="email">
+                        </li>
+                        <li>
+                            <label for="Message">Message</label>
+                            <textarea name="user_message" id="Message" cols="60" rows="10">The European languages...</textarea>
+                        </li>
+                    </ul>
                 </form>
 
                 <footer>
